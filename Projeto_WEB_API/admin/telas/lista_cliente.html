@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat House</title>
+    <link rel="stylesheet" href="../assets/CSS/componentes/cabecalho.css">
+    <link rel="stylesheet" href="../assets/CSS/base/base.css">
+    <link rel="stylesheet" href="../assets/CSS/componentes/botao.css">
+    <link rel="stylesheet" href="../assets/CSS/componentes/cabecalho.css">
+    <link rel="stylesheet" href="../assets/CSS/componentes/cartao.css">
+    <link rel="stylesheet" href="../assets/CSS/componentes/inputs.css">
+    <link rel="stylesheet" href="../assets/CSS/componentes/lista_cliente.css">
+    <link rel="stylesheet" href="../assets/CSS/componentes/modal.css">
+    <link rel="stylesheet" href="..//assets/CSS/componentes/tabela.css">
+
+
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <img src="../assets/img/doguitoadm.svg" alt="Logotipo red bull" class="cabecalho__logo">
+
+        <nav>
+            <ul class="cabecalho__lista-navegação">
+                <li class="cabecalho__link"><a href="#">Dashoboard</a> </li>
+                <li class="cabecalho__link"><a href="#">Produtos</a> </li>
+                <li class="cabecalho__link"><a href="#">Clientes</a> </li>
+                <li class="cabecalho__link"><a href="#">Pets</a> </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+<main class="clientes-container">
+    <table class="tabela">
+        <thead>
+            <tr>
+                <tr class="tabela__coluna--p">Nome</tr>
+                <tr class="tabela__coluna--g">Email</tr>
+                <tr class="tabela__coluna--m tabela__alinhamento--direita"><a href="./cadastra_cliente.html" class="botao-simples botao-simples--adicionar">Novo cliente</a></tr>
+
+            </tr>
+        
+        </thead>
+        <tbody data-tabela>
+
+        </tbody>
+
+    </table>
+    <div class="model__container model--fechado">
+        <article class="modal">
+            <h2 class="modal__titulo">
+                Excluir
+            </h2>
+            <button class="modal__fechado">X</button>
+
+            <p class="modal__texto">Deseja excluir essa entrada?</p>
+            <div class="modal__botao-conteiner">
+                <button class="modal__botao modal__botao--confirmar">Excluir</button>
+                <button class="modal__botao">Não excluir</button>
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+</main>
+
+
+
+</body>
+
+</html>
